@@ -62,7 +62,7 @@ I believe that certain things cannot be replicated by AI, as art is something th
 ## Contact 
 - Email: [malhargirgaonkarr@gmail.com](malhargirgaonkarr@gmail.com)
 - Linkedin : [Malhar Girgaonkar](https://www.linkedin.com/in/malhar-girgaonkar-b9223a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-- Github : [Malhar Girgankar](https://github.com/Malhar-Girgaonkar)
+- Github : [Malhar Girgaonkar](https://github.com/Malhar-Girgaonkar)
 
 ## Contributing
 Contributions to M.U.R.A.L are welcome. If you encounter issues or have ideas for improvement, please open an issue or submit a pull request.
