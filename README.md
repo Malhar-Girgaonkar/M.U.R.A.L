@@ -32,9 +32,10 @@ M.U.R.A.L stands for Machine-aided Understanding and Recognition of Artistic Leg
 ## Images of application
 - Following are the screenshots of my application
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/Malhar-Girgaonkar/M.U.R.A.L/blob/master/App%20data/Demo/Application%20Screenshot/Screenshot%202024-02-04%20003258.png" alt="Mainpage 1" width="400" height="300"/>
-  <img src="https://github.com/Malhar-Girgaonkar/M.U.R.A.L/blob/master/App%20data/Demo/Application%20Screenshot/Screenshot%202024-02-04%20003434.png" alt="Mainpage 1" width="400" height="300"/>
+  <img src="https://raw.githubusercontent.com/Malhar-Girgaonkar/M.U.R.A.L/master/App%20data/Demo/Application%20Screenshot/Screenshot%202024-02-04%20003258.png" alt="Mainpage 1" width="400" height="300"/>
+  <img src="https://raw.githubusercontent.com/Malhar-Girgaonkar/M.U.R.A.L/master/App%20data/Demo/Application%20Screenshot/Screenshot%202024-02-04%20003434.png" alt="Mainpage 2" width="400" height="300"/>
 </div>
+
 
 ## How to Use
 1. Launch the application using mainpage.py.
