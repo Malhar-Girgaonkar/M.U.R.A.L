@@ -56,6 +56,9 @@ Following tehnologies were used in making of this application
 	-Human-made Images: Folder that contains known human made image for demo.   
 
 	-Application Screenshots: Folder with screenshots of application if its unable to run.       	
+    
+    -Dependencies:
+	-Prerequisite.py: A program to install modules used in code.
 
     -Models: It is the folder where i store my module trained using CNN.
 
@@ -67,6 +70,7 @@ Following tehnologies were used in making of this application
 
 -Mainpage.py: The GUI/frontend of application.
 
+-Mainpage2.py: The gui with different module loading scheme for trial.
 -main.py: A gateway file to start application and create .exe file.
 
 -Readme.txt: Text of documentation(This same text file)
@@ -117,7 +121,7 @@ It is a good practise to clear the image folder in application using the image p
 ======================================================================================================================================
 
 -Steps to use application:
-
+    -(For fist time users only) Run the prerequisite.py to install modules being used
     -Start application
     -Read about application
     -Clear image folder

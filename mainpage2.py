@@ -1,10 +1,17 @@
-from turtle import width
+
+'''from turtle import width
 from CTkMessagebox import CTkMessagebox
 import customtkinter as ctk
 import tkinter as tk
 import Backend as bknd
 from PIL import Image
-import time
+import time'''
+
+import tkinter as tk
+from tkinter import ttk
+from tqdm import tqdm
+import customtkinter as ctk
+import PIL.Image
 
 theme_path = r"App data\Defaults\custom_Theme.json"
 ctk.set_appearance_mode("dark")
@@ -47,14 +54,14 @@ class ImagepreviewFrame(ctk.CTkFrame):
 
         def preview_img(self):
                 #load image
-                self.image_loaded = Image.open(self.img_path)
+                self.image_loaded = PIL.Image.open(self.img_path)
                 self.image_loaded.resize(size=(250,250))
                 self.image = ctk.CTkImage(dark_image=self.image_loaded, size = (100,100))
                 #configure lable img_lable for image display
                 self.img_lable.configure(image = self.image)
 
         def clear_preview_img(self):
-                self.image_empty = Image.open("App data/Defaults/image_noot_found.jpg")
+                self.image_empty = PIL.Image.open("App data/Defaults/image_noot_found.jpg")
                 self.image_empty.resize(size=(200,200))
                 self.empty_image = ctk.CTkImage(dark_image=self.image_empty , size=(100, 100))
                 self.img_lable.configure(image = self.empty_image)
@@ -225,10 +232,28 @@ class AllFrame(ctk.CTkScrollableFrame):
 
 
 class Mainpageapp(ctk.CTk):
+    def import_modules(self):
+        # List of modules to import with aliasing
+        modules_to_import = [
+            ("turtle", "t"),
+            ("CTkMessagebox", "CTkMessagebox"),
+            ("customtkinter", "ctk"),
+            ("tkinter", "tk"),
+            ("Backend", "bknd"),
+            ("PIL", "Image"),
+            ("time", "time"),
+        ]
+
+        # Display loading screen
+        with tqdm(total=len(modules_to_import), desc="Importing Modules", dynamic_ncols=True) as pbar:
+            for module_name, alias in modules_to_import:
+                globals()[alias] = __import__(module_name)
+                pbar.update(1)  # Update progress bar
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.title("Main Page")
-
+        
         # Calculate the coordinates for centering the window
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
@@ -240,9 +265,11 @@ class Mainpageapp(ctk.CTk):
         self.resizable(True, True)
         self.attributes('-topmost', True)
 
-        #set the all encompasing mighty frame
+        # Import modules with aliasing and loading screen
+        self.import_modules()
+        #Add the all encompassing mighty frame
         self.allframe = AllFrame(master = self , border_width = 2 , scrollbar_button_hover_color = "#585858", scrollbar_button_color = "#252525" , fg_color = "#1B1B1B", border_color = "#111109")
-        self.allframe.grid(row=0, column=0,columnspan=1, padx=15, pady=15, sticky="nsew")
+        self.allframe.grid(row=1, column=0,columnspan=1, padx=15, pady=15, sticky="nsew")
         self.allframe._set_dimensions(width = 1482,height =795 )
 
 if __name__=="__main__":
