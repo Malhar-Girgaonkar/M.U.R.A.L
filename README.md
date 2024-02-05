@@ -30,7 +30,7 @@ M.U.R.A.L stands for Machine-aided Understanding and Recognition of Artistic Leg
 - Info Frame: Offers additional information based on the prediction result.
 
 ## Images of application
-- Following are the screenshots of my application
+- Following are the screenshots of the application
 <div style="display: flex; justify-content: space-between;">
   <img src="https://raw.githubusercontent.com/Malhar-Girgaonkar/M.U.R.A.L/master/App%20data/Demo/Application%20Screenshot/Screenshot%202024-02-04%20003258.png" alt="Mainpage 1" width="400" height="300"/>
   <img src="https://raw.githubusercontent.com/Malhar-Girgaonkar/M.U.R.A.L/master/App%20data/Demo/Application%20Screenshot/Screenshot%202024-02-04%20003434.png" alt="Mainpage 2" width="400" height="300"/>
@@ -52,7 +52,7 @@ M.U.R.A.L stands for Machine-aided Understanding and Recognition of Artistic Leg
   - Run executable if available
 
 ## License
-This project is not licensed yet.
+This project is licensed Under MIT.
 
 ## About Author
 This application is made entirely from scratch, including the building of the neural network and the application, by Malhar Girgaonkar. I have a deep appreciation for art in all its shapes and forms. The current trend of AI gaining popularity in creative fields, which is at the forefront of what defines humans, has caused many artists to lose their mental peace due to job security and replacement fears by the more powerful, productive, and efficient AI.
@@ -60,7 +60,7 @@ This application is made entirely from scratch, including the building of the ne
 I believe that certain things cannot be replicated by AI, as art is something that comes from the soul and not just blatant learning from other artists, which I firmly believe is a form of artistic theft. As an artist and a student of computer science, I considered this project as my personal contribution to help art and artists get the recognition they deserve.
 
 ## Contact 
-- Email: [malhargirgaonkar@gmail.com](malhargirgaonkar@gmail.com)
+- Email: [malhargirgaonkar@gmail.com](mailto:malhargirgaonkar@gmail.com)
 - Linkedin : [Malhar Girgaonkar](https://www.linkedin.com/in/malhar-girgaonkar-b9223a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Github : [Malhar Girgaonkar](https://github.com/Malhar-Girgaonkar)
 
