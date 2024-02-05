@@ -60,7 +60,7 @@ This application is made entirely from scratch, including the building of the ne
 I believe that certain things cannot be replicated by AI, as art is something that comes from the soul and not just blatant learning from other artists, which I firmly believe is a form of artistic theft. As an artist and a student of computer science, I considered this project as my personal contribution to help art and artists get the recognition they deserve.
 
 ## Contact 
-- Email: [malhargirgaonkarr@gmail.com](malhargirgaonkarr@gmail.com)
+- Email: [malhargirgaonkar@gmail.com](malhargirgaonkar@gmail.com)
 - Linkedin : [Malhar Girgaonkar](https://www.linkedin.com/in/malhar-girgaonkar-b9223a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Github : [Malhar Girgaonkar](https://github.com/Malhar-Girgaonkar)
 
