@@ -133,5 +133,6 @@ It is a good practise to clear the image folder in application using the image p
 ======================================================================================================================================
 
 -Contact and other details:
+    -Name: Malhar Girgaonkar
     -Email ID: malhargirgaonkar@gmail.com
     -Github Repository: 
